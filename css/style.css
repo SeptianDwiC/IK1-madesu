@@ -1,0 +1,521 @@
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* Desaign Home */
+/* Design Navigasi */
+.navbar {
+    height: 9vh;
+    box-shadow: 5px 5px 10px rgb(158, 153, 153);
+    z-index: 3;
+}
+.navbar-brand {
+    font-family: Chakra Petch;
+    font-size: 28px;
+    font-weight: 700;
+}
+.nav-item .nav-link {
+    padding: 10px;
+    height: 55px;
+    font-family: Do Hyeon;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black !important;
+}
+.nav-item:hover .nav-link {
+    background-color: #E2E2E2;
+}
+
+/* Content Layout */
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.content .section-home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.content .section-about {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 150vh;
+}
+.content .section-login {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.content .section-register {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Desaign Background Home*/
+.ellipse1 {
+    position: absolute;
+    margin:35px 0;
+    z-index: -2;
+}
+.ellipse2 {
+    position: absolute;
+    margin:520px 88% ;
+    z-index: -2;
+}
+.ellipse3 {
+    position: absolute;
+    margin:5px 300px ;
+    z-index: -2;
+}
+.ellipse4 {
+    position: absolute;
+    margin: 570px 480px ;
+    z-index: 2;
+}
+.ellipse5 {
+    position: absolute;
+    margin: 90px 65% ;
+    z-index: -2;
+}
+.icon {
+    position: absolute;
+    margin: 125px 52px;
+    z-index: -1;
+}
+
+/* Desaign Card Home*/
+.content .section-home .container-content {
+    position: relative;
+    background-color: white;
+    margin: 200px 40%;
+    width: 45%;
+    height: 45%;
+    transition: .5s;
+    z-index: 2;
+}
+.container-content h3 {
+    font-family: Amaranth;
+    font-weight: 700;
+    font-size: 2em;
+}
+.container-description {
+    width: 95%;
+    height: 30%;
+}
+.container-content .container-description p {
+    font-size: 1.2em;
+    font-family: Tuffy;
+    font-style: italic;
+}
+.container-content .btn {
+    background-color: #6FB6EA;
+    width: 22%;
+    height: 12%;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 30px;
+}
+.container-content .btn .GetStarted {
+    text-decoration: none;
+    font-family: Amaranth;
+    font-size: 1.2em;
+    color: #f3f3f3;
+}
+.content .section-home .container-content:hover {
+    margin: 210px 40%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+    transition: .5s;
+}
+.container-content .btn:hover {
+    background-color: #64a3cf;
+}
+/* Tutup Desaign Home */
+
+/* Desaign About Us */
+/* Desaign Background About*/
+#About .ellipse1 {
+    position: absolute;
+    margin:30px 0;
+    z-index: -2;
+}
+#About .ellipse2 {
+    position: absolute;
+    margin:845px 88% ;
+    z-index: -5;
+}
+#About .ellipse3 {
+    position: absolute;
+    margin: 10px 300px ;
+    z-index: -10;
+}
+#About .ellipse4 {
+    position: absolute;
+    margin: 900px 400px ;
+    z-index: 2;
+}
+#About .ellipse5 {
+    position: absolute;
+    margin: 90px 65% ;
+    z-index: -2;
+}
+
+.AboutUs {
+    position: absolute;
+    width: 50%;
+    height: 165px;
+    margin: 200px 270px;
+}
+.AboutUs .judul {
+    width: 17%;
+    height: 40px;
+    border-bottom:5px solid #6FB6EA;
+}
+.AboutUs .judul h3 {
+    font-family: Do Hyeon;
+    font-size: 30px;
+}
+.AboutUs p {
+    margin: 20px 0;
+    width: 650px;
+    height: 117px;
+    font-family: Tuffy;
+    font-style: italic;
+    font-size: 20px;
+}
+.AboutUs #icon-about {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    margin: -200px 110%;
+    fill: #6FB6EA;
+}
+.card-about {
+    position: absolute;
+    width: 942px;
+    height: 155px;
+    margin: 387px 270px;
+    background: #6FB6EA;
+    border-radius: 5px;
+}
+.misi {
+    display: inline-block;
+    width: 330px;
+    height: 260px;
+    margin: 30px 80px; 
+    padding: 20px;   
+    background: #FFFFFF;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    transition: .5s;
+}
+.misi h4 {
+    font-family: Do Hyeon;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+.misi p {
+    font-family: Tuffy;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+}
+.misi:hover {
+    margin: 10px 80px;
+    box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.25), 10px 10px 15px rgba(0, 0, 0, 0.25);
+    transition: .5s;
+}
+.visi {
+    display: inline-block;
+    width: 330px;
+    height: 260px;
+    margin: 30px 50px; 
+    padding: 20px;   
+    background: #FFFFFF;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    transition: .5s;
+}
+.visi h4 {
+    font-family: Do Hyeon;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+.visi p {
+    font-family: Tuffy;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+}
+.visi:hover {
+    margin: 10px 50px;
+    box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.25), 10px 10px 15px rgba(0, 0, 0, 0.25);
+    transition: .5s;
+}
+.services {
+    position: absolute;
+    width: 815px;
+    height: 273px;
+    margin: 700px 270px;
+}
+.services .judul-services {
+    width: 14%;
+    height: 40px;
+    border-bottom:5px solid #6FB6EA;
+}
+.services .judul-services h3 {
+    font-family: Do Hyeon;
+    font-size: 30px;
+}
+.services .services1 svg {
+    transition: .5s;
+}
+.services .services1 svg:hover {
+    transform: scale(1.2);
+    transition: .5s;
+}
+.services .services2 svg {
+    transition: .5s;
+}
+.services .services2 svg:hover {
+    transform: scale(1.2);
+    transition: .5s;
+}
+.services .services3 svg {
+    transition: .5s;
+}
+.services .services3 svg:hover {
+    transform: scale(1.2);
+    transition: .5s;
+}
+/* Tutup Desaign About */
+
+/* Desaign Log In */
+.section-login .icon-login {
+    position: absolute;
+    margin: 200px 83px;
+}
+.section-login .card-login {
+    position: absolute;
+    width: 28%;
+    height: 70vh;
+    left: 460px;
+    top: 100px;
+    border-radius: 10px;
+    box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.25), 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+.card-login .header-login {
+    height: 30%;
+}
+.header-login h3 {
+    width: 25%;
+    height: 38px;
+    font-family: Do Hyeon;
+    font-size: 30px;
+    letter-spacing: 0.15em;
+    border-bottom: 5px solid #6FB6EA;
+}
+.group-username {
+    width: 100%;
+    padding: 20px 40px;
+    height: 15vh;
+}
+.group-username .inputs { 
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 40px;
+}
+.inputs label {
+    height: 40px;
+    margin: 8px 8px;
+    font-family: Coda;
+    font-size: 20px;
+    line-height: 34px;
+}
+.inputs input {
+    position: absolute;
+    margin: 40px auto;
+    display: block;
+    width: 100%;
+    height: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000;
+    transition: .2s;
+}
+.inputs input:focus{
+    transition: .2s;
+    border-bottom: 2px solid #6FB6EA;
+}
+.group-password {
+    width: 100%;
+    padding: 20px 35px;
+    height: 15vh;
+    border: 2px solid black;
+}
+.tombol .btn {
+    width: 35%;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: #6FB6EA;
+}
+.tombol .btn a {
+    font-family: Viga;
+    text-decoration: none;
+    font-size: 1.2em;
+    line-height: 35px;
+    color: #f0f0f0;
+}
+.tombol .btn:hover {
+    background-color: #64a3cf;
+}
+.link label {
+    font-family: Tuffy;
+    font-style: italic;
+    font-size: 1.2rem;
+    line-height: 36px;
+}
+.link label a {
+    text-decoration: none;
+    font-family: Tuffy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 36px;
+    color: #0C8DD6;
+}
+.link label a:hover {
+    color: #0d78b6;
+}
+
+/* Desaign Register */
+.section-register .icon-login {
+    position: absolute;
+    margin: 200px 83px;
+}
+.section-register .card-login {
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 28%;
+    height: 75vh;
+    left: 460px;
+    top: 100px;
+    border-radius: 10px;
+    box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.25), 10px 10px 10px rgba(0, 0, 0, 0.25);
+    z-index: 3;
+}
+.card-login .header-login {
+    height: 30%;
+}
+.section-register .header-login h3 {
+    width: 41%;
+    height: 38px;
+    font-family: Do Hyeon;
+    font-size: 30px;
+    letter-spacing: 0.15em;
+    border-bottom: 5px solid #6FB6EA;
+}
+.section-register .group-username {
+    position: relative;
+    padding: 5px 40px;
+    width: 100%;
+    height: 50vh;
+}
+.section-register .group-username .inputs { 
+    position: relative;
+    width: 100%;
+}
+.section-register .inputs label {
+    height: 40px;
+    margin: 0 8px;
+    font-family: Coda;
+    font-size: 18px;
+    line-height: 34px;
+}
+.section-register .inputs input {
+    position: absolute;
+    margin: 40px auto;
+    display: block;
+    width: 100%;
+    height: 50%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000;
+    transition: .2s;
+}
+.section-register .inputs input:focus{
+    transition: .2s;
+    border-bottom: 2px solid #6FB6EA;
+}
+.section-register .group-password {
+    width: 100%;
+    padding: 20px 35px;
+    height: 15vh;
+    border: 2px solid black;
+}
+.section-register .tombol .btn {
+    width: 35%;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: #6FB6EA;
+}
+.section-register .tombol .btn a {
+    font-family: Viga;
+    text-decoration: none;
+    font-size: 1.2em;
+    line-height: 35px;
+    color: #f0f0f0;
+}
+.section-register .tombol .btn:hover {
+    background-color: #64a3cf;
+}
+.section-register .link label {
+    font-family: Tuffy;
+    font-style: italic;
+    font-size: 1.2rem;
+    line-height: 36px;
+}
+
+@media (min-width: 360px){
+    /* Navbar */
+    .navbar .image {
+        position: absolute;
+        top: 0;
+    }
+    .navbar .navbar-brand {
+        position: absolute;
+        top: 0;
+        left: 8%;
+    }
+    .navbar .navbar-toggler {
+        margin-left: 85%;
+    }
+    .navbar-collapse {
+        margin-left: -2%;
+        background-color: #FFFFFF;
+    }
+
+    /* Content Home*/
+    .content .section-home {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+    }
+}

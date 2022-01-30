@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	position: relative;
+	overflow-x: hidden;
+}
+
+/* Navigas Bar */
+.navbar {
+	box-shadow: 5px 5px 10px rgb(158, 153, 153);
+}
+.judulNav .navbar-brand {
+	font-family: Chakra Petch;
+	font-size: 28px;
+	font-weight: 700;
+}
+.nav-item .nav-link {
+	padding: 10px;
+	height: 55px;
+	font-family: Do Hyeon;
+	font-size: 24px;
+	font-weight: 400;
+	text-decoration: none;
+	color: black !important;
+}
+.nav-item:hover .nav-link {
+	background-color: #e2e2e2;
+}
+/* Tutup Navigasi */
+
+/* Content */
+/* Carousel */
+.carousel-item img {
+	height: 25rem;
+}
+.carousel-caption .text-light,
+.text-dark {
+	font-family: viga;
+}
+/* Tutup Carousel */
+
+/* Card */
+.row .card {
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+	transition: 0.5s;
+}
+/* .row .card:hover {
+    margin-top: -5% ;
+    transition: .5s;
+} */
+.card img {
+	width: 70%;
+	height: 10rem;
+}
+/* Tutup Card */
+
+/* Profile */
+.profile .card {
+	width: 350px;
+	background-color: #efefef;
+	border: none;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.profile .image img {
+	transition: all 0.5s;
+}
+
+.profile .card:hover .image img {
+	transform: scale(1.5);
+}
+
+.profile .btn {
+	height: 140px;
+	width: 140px;
+	border-radius: 50%;
+}
+
+.profile .name {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.profile .idd {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.profile .idd1 {
+	font-size: 12px;
+}
+
+.profile .number {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.profile .follow {
+	font-size: 12px;
+	font-weight: 500;
+	color: #444444;
+}
+
+.profile .btn1 {
+	height: 40px;
+	width: 150px;
+	border: none;
+	background-color: #000;
+	color: #aeaeae;
+	font-size: 15px;
+}
+
+.profile .text span {
+	font-size: 13px;
+	color: #545454;
+	font-weight: 500;
+}
+
+.profile .icons i {
+	font-size: 19px;
+}
+
+.profile hr .new1 {
+	border: 1px solid;
+}
+
+.profile .join {
+	font-size: 14px;
+	color: #a0a0a0;
+	font-weight: bold;
+}
+
+.profile .date {
+	background-color: #ccc;
+}
+/* Tutup Profile */
+
+/* Modal */
+/* .modal .modal-body .col-lg-12 p {
+	font-family: roboto;
+	font-weight: 700;
+	font-size: 2rem;
+} */
+.produk .col-lg-8 .qty {
+	width: 50%;
+	height: 100%;
+	font-family: roboto;
+	border-radius: 10px;
+	border: 2px solid #4e4e4e;
+}
+/* Tutup Modal */
+/* Tutup Content */
